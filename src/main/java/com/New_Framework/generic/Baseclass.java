@@ -30,7 +30,7 @@ System.out.println("Open Browser");
 	@Before(order=2)
 	public void login() throws IOException
 	{
-		System.out.println("Login");
+		System.out.println("Login app");
 
 		Reporter.log("Login",true);
 		FileLib fl=new FileLib();
