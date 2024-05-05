@@ -84,6 +84,7 @@ public class CampaignModule {
 		CampaignDetails cd=new CampaignDetails(driver);
 		String actual=cd.getCampaignNameValue();
 		String exp=al.get(0);
+		System.out.println(actual);
 		Assert.assertEquals(actual, exp);
 	}
 
