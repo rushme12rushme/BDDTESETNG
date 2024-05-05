@@ -8,6 +8,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.New_Framework.POM.CampaignDetails;
@@ -50,6 +51,7 @@ public void CreateCampaign() throws EncryptedDocumentException, InvalidFormatExc
 	String actual=cd.getCampaignNameValue();
 	String exp=al.get(0);
 	Assert.assertEquals(actual, exp);
+	Reporter.log("CreateCampaign",true);
 }
 	
 }
