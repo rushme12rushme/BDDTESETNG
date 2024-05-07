@@ -22,6 +22,7 @@ public class CampaignModule {
 @Test
 public void CreateCampaign() throws EncryptedDocumentException, InvalidFormatException, IOException
 {
+	System.out.println("Create Module");
 	WebDriver driver=Baseclass.driver;
 	HomePage h=new HomePage(driver);
 	h.setCampaignsTab();

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Runner.Runner">
+      <class name="com.New_Framework.testscript.CampaignModule">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="CreateCampaign"/>
         </methods>
-      </class> <!-- Runner.Runner -->
+      </class> <!-- com.New_Framework.testscript.CampaignModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
